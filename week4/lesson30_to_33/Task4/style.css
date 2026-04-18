@@ -1,0 +1,50 @@
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    width: 700px; 
+    margin: auto;
+    border-collapse: collapse; 
+    background-color: #eee; 
+    border-bottom: 3px solid #2e9d81; 
+    text-align: center
+}
+
+th {
+    background-color: #444; 
+    color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #fff; 
+}
+
+td img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    background-color: white;
+}
+
+button {
+    border: none;
+    padding: 6px 12px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.view {
+    background-color: #00a2e8; 
+}
+
+.delete {
+    background-color: #e91e63; 
+}

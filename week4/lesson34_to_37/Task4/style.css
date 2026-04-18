@@ -1,0 +1,33 @@
+body {
+  counter-reset: counter; 
+}
+
+p {
+  width: 500px;
+  background-color: #eee;
+  margin: 20px auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  position: relative;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  border-right: 5px solid #f44336; 
+}
+
+p::before {
+  counter-increment: counter;
+  content: counter(counter); 
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  background-color: #f44336; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}

@@ -1,0 +1,14 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10% 50%; 
+  box-shadow: 
+    inset 5px 5px 10px rgba(0, 0, 0, 0.2),  
+    inset -5px -5px 10px rgba(0, 0, 0, 0.2); 
+  -webkit-box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2), inset -5px -5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2), inset -5px -5px 10px rgba(0, 0, 0, 0.2);
+}

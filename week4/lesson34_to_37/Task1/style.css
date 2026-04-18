@@ -1,0 +1,19 @@
+div {
+  width: 300px;
+  height: 60px;
+  margin: 20px auto; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+}
+
+.one,.three {
+  background-color: #eee; 
+  text-align: center;
+}
+
+div:empty {
+  background-color: #ff0000; /* اللون الأحمر الفاقع */
+}

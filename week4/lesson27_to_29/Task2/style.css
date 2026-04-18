@@ -1,0 +1,19 @@
+div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    color: black;
+    text-align: center; 
+}
+.normal {
+    background-color: #b9b9b9;
+}
+.one {
+    background-color: rgba(185, 185, 185, 0.1);
+}
+.two {
+    background-color: #b9b9b9;
+    opacity: 0.1;
+}

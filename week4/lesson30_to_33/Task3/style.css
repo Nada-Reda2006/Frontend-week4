@@ -1,0 +1,35 @@
+.container {
+  width: 400px;
+}
+
+.card {
+  background-color: #eeeeee;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+li span {
+  display: block;
+  background-color: white;
+  padding: 8px 15px;
+  border: 1px solid #e0e0e0;
+}
+
+.decimal-list {
+  list-style-type: decimal; 
+}
+
+.roman-list {
+  list-style-type: upper-roman; 
+}
+
+.circle-list {
+  list-style-type: circle;
+ list-style-position: inside;
+}

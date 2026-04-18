@@ -1,0 +1,27 @@
+.parent {
+    width: 800px; 
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    margin: 0 auto;
+}
+.parent div {
+    background-color: #ddd;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 100%;
+}
+.one-third {
+    width: calc((100% - (15px * 2)) / 3);
+}
+.one-half {
+    width: calc((100% - 15px) / 2);
+}
+.one-fourth {
+    width: calc((100% - (15px * 3)) / 4);
+}
